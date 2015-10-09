@@ -11,14 +11,7 @@ public Vertex(double x,double y){
 	public String toString() {
 		return "("+x+","+y+")";
 	}
-	public double length(){
-
-		
-		
-		
-		
-		
-		
+	public double length(){	
 		return Math.sqrt(x*x+y*y);
 	}
 	
