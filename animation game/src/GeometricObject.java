@@ -62,20 +62,5 @@ public class GeometricObject {
 	}
 	public void move(Vertex v){
 		moveTo(pos.add(v));
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
-		
-	
+	}	
 }
