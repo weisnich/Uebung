@@ -1,23 +1,16 @@
-public class Fibonacci { 
+public class Fibonacci {
 
-    public static void main(final String[] args) { 
-        long endValue = 1000000; 
-        String trenner = System.getProperty("line.separator"); 
-        try { 
-            endValue = Long.parseLong(args[0]); 
-            trenner = args[1]; 
-        } catch (Exception ignore) { 
-        } 
-        long fib1 = 0; 
-        long fib2 = 1; 
-        System.out.print(fib1); 
-        while (fib2 <= endValue) { 
-            System.out.print(trenner); 
-            System.out.print(fib2); 
-            long newFib = fib1 + fib2; 
-            fib1 = fib2; 
-            fib2 = newFib; 
-        } 
-        System.out.println(); 
-    } 
+	public static void main(String[] args) {
+long zahl1 = 1,zahl2 = 1,i=0;
+while(i<=50){
+	if(i%2==0){
+		System.out.println(zahl1);
+		zahl1+=zahl2;
+				}
+	else{System.out.println(zahl2);
+		zahl2+=zahl1;
+		}	
+		i++;
+		}	
+	}
 }
