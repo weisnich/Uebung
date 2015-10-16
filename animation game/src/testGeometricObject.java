@@ -1,4 +1,3 @@
-
 public class testGeometricObject {
 
 	public static void main(String[] args) {

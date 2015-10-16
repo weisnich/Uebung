@@ -70,7 +70,7 @@ public class GeometricObject {
 			GeometricObject that=(GeometricObject)thatObject;
 			return  that.width==this.width && this.height==that.height
 					&& this.pos.equals(that.pos);
-		}
+			}
 		return false;
 	}
 }
