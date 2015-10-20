@@ -1,3 +1,4 @@
+
 public class EquilateralTriangle extends GeometricObject{
 
 	public EquilateralTriangle(double w, double h, Vertex pos){
