@@ -1,5 +1,6 @@
 public class SimplePaintableRectangle extends SimpleOval
-	implements Paintable {
+implements Paintable {
+	
 	public SimplePaintableRectangle(double width,double height,double x,double y) {
 		 super(width,height,x,y);
 	}
