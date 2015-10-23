@@ -10,6 +10,6 @@ public class PaintablePanel extends SizedPanel{
 		ShowInFrame.show
 		(new PaintablePanel(new PaintableOval(100,50,30,50)));
 		ShowInFrame.show
-		(new PaintablePanel(new PaintableOval(10,10,130,40)));		
+		(new PaintablePanel(new SimplePaintableRectangle(10,10,130,40)));		
 	}
 }
