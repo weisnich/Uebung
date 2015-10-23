@@ -1,13 +1,16 @@
+import java.awt.Color;
 public class GeometricObject {
 
 	public Vertex pos;
 	public double height;
 	public double width;
+	public Color color;
 
-	public GeometricObject(double width, double height, Vertex pos){
+	public GeometricObject(double width, double height, Vertex pos, Color color){
 		this.pos=pos;
 		this.width=width;
 		this.height=height;
+		this.color=color;
 		
 		if(this.width<0){
 			this.width = -this.width;
@@ -19,8 +22,12 @@ public class GeometricObject {
 		}
 	}
 	
-	public GeometricObject (double width, double height){
-		this(width, height, new Vertex(0,0));
+	public GeometricObject (double width, double height, Color color){
+		this(width, height, new Vertex(0,0),color);
+	}
+	
+	public GeometricObject(double width, double height){
+		this(width, height, new Vertex(0,0), new Color(0,0,0));
 	}
 	
 	public GeometricObject(double width){
@@ -30,7 +37,7 @@ public class GeometricObject {
 	}
 	
 	public GeometricObject(Vertex pos){
-		this(0,0,pos);
+		this(0,0,pos,new Color(0,0,0));
 	}
 	
 	public double getWidth(){return width;}

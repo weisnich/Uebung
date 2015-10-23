@@ -1,7 +1,9 @@
+import java.awt.Color;
+
 public class testGeometricObject {
 
 	public static void main(String[] args) {
-		GeometricObject o1 = new GeometricObject(17,4, new Vertex(42,23));
+		GeometricObject o1 = new GeometricObject(17,4, new Vertex(42,23),new Color(23,56,34));
 		GeometricObject o2 = new GeometricObject(234,534);
 
 		System.out.println(o1.equals(o2));
