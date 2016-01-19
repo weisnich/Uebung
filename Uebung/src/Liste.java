@@ -13,6 +13,9 @@ public class Liste {
 	public String toString(){
 		return kopf.toString();
 	}
+	public int getGroesse(){
+		return kopf.getGroesse(0);
+	}
 	
 	
 	

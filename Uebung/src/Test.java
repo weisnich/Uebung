@@ -7,6 +7,7 @@ public class Test {
 		liste.add(7);
 		liste.add(234);
 		System.out.println(liste);
+		System.out.println(liste.getGroesse());
 	}
 
 }

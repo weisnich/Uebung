@@ -22,6 +22,12 @@ public class ListenElement {
 			return ""+inhalt+" "+next.toString();
 		}
 	}
+	public int getGroesse(int anzahl){
+		 int zahl = anzahl+1;
+		 if(next!=null){
+			 return next.getGroesse(zahl);}				 
+		 	 return zahl;				 
+		 }
 	
 	
 }
